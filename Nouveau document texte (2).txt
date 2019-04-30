@@ -1,0 +1,371 @@
+<div class="world">
+             <div class="left-world">
+                 <div class="title">
+                     <h3>The world's </h3>
+                     <h3> biggest healthcare platform</h3>
+                 </div>
+                 <p>We work from 6 offices all over the world, bringing Docplanner Group to life in almost 20 countries.</p>
+                 <img src="https://media.licdn.com/dms/image/C4E0BAQFOWnbru99f5w/company-logo_200_200/0?e=2159024400&v=beta&t=EceoeatN3ZdtLKlQdk-5b9mznHFILuVm2EExIss1FTA" alt="image1"/>
+              </div>
+             <div class="right-world>">
+                 <div class="leader">
+                        <img src="https://i.imgur.com/auGQRwU.png" alt="image1"/>
+                        <h3>Leader in 10 countries</h3>
+                        <p>Poland, Turkey, Spain, Italy, Czech Republic, Mexico, Brazil, Colombia, Argentina and Chile</p>
+                 </div>
+                 <div class="million">
+                        <img src="https://i.imgur.com/ucciUl6.png" alt="image1"/>
+                        <h3> 1 million appointments</h3>
+                        <p>booked last month</p>
+                 </div>
+                 <div class="patients">
+                        <img src="https://i.imgur.com/rqJQz3p.png" alt="image1"/>
+                        <h3>30 million unique patients</h3>
+                        <p>visit us every month</p>
+                 </div>
+                 <div class="doctors">
+                        <img src="https://i.imgur.com/HDIL16d.png" alt="image1"/>
+                        <h3>2 million active doctors</h3>
+                        <p>trust in our solutions</p>
+                 </div>
+
+             </div>
+         </div>
+
+
+
+
+
+
+.world {
+       display:flex;
+       flex-direction:row;
+       justify-content:space-around; 
+       border: 1px solid black;
+       background-color: #e5faf8;
+       
+    }
+     
+        .title {
+          color:#00b39b;
+          margin: 70px 20px 30px 180px;
+           padding:0px;
+           order: 1px solid black;
+
+         }   
+        .title h3{
+           font-size: 34px;
+        }
+         
+        .left-world p{
+            font-size: 14px;
+            margin: 0px 220px 20px 180px;
+        }
+        .left-world img{
+            width:500px;
+            height:400px;
+            margin: 60px 80px 0px 80px;
+        }
+         .right-world{
+
+         }
+        
+            .leader{
+               border: 1px solid black;
+               
+             }
+            .patients{
+               border: 1px solid black;
+             }
+             .million{
+               border: 1px solid black;
+             }
+             .doctors{
+                border: 1px solid black;
+             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="box">
+             <div class=box1>
+                 <h3>For patients </h3>
+                 <p>Find a doctor, book a visit and solve any health-related doubt</p>
+                 <img class="image1" src="https://www.docplanner.com/img/screen-marketplace@2x.png" alt="image1"/>
+                 <select class="button">
+                                <option value="CHOOSE COUNTRY">CHOOSE COUNTRY</option>
+                                <option value="ARGENTINA">ARGENTINA</option>
+                                <option value="AUSTRALIA">AUSTRALIA</option>
+                                <option value="BRAZIL">BRAZIL</option>
+                                <option value="CHINE">CHINE</option>
+                                <option value="COLOMBIA">COLOMBIA</option>
+                                <option value="CZECH">CZECH</option>
+                                <option value="FRANCE">FRANCE</option>
+                                <option value="ITALY">ITALY></option>
+                                <option value="MEXICO">MEXICO</option>
+                                <option value="PERU">PERU</option>
+                                <option value="POLAND">POLAND</option>
+                                <option value="PORTUGAL">PORTUGAL</option>
+                                <option value="SPAIN">SPAIN</option>
+                                <option value="TURKEY">TURKEY</option>
+                                <option value="UK">UK</option>
+                                  
+                 </select>
+                        
+                 
+             </div>
+             <div class=box2>
+                    <h3>For doctors </h3>
+                    <p>Save time managing visits and cut no-shows by half</p>
+                     <img class="image2" src="https://www.docplanner.com/img/screen-saas@2x.png" alt="logo1"/>    
+                   
+             </div>
+
+
+        
+         </div>
+
+
+
+
+
+
+
+
+
+.box1{
+     
+          background-color: #00b39b;
+          border-radius:10px;
+          width:470px;
+          height:400px;
+          margin:60px 20px 5px 180px;
+          overflow: hidden;
+          position: absolute;
+          border: 1px solid black;
+      }
+
+             .box1 h3{
+                color:lightblue;
+                font-size:16px;
+                margin:25px 40px 5px 40px;
+             }
+             .box1 p{
+                font-size: 28px;
+                margin:0px 70px 20px 40px;
+                color:white;
+            }
+
+
+             .image1 {
+                
+                 width: 500px;
+                 height: 220px;
+                 margin: -20px -100px 20px 180px;
+                 background-image: url(image.jpg);
+                 background-size:cover;   
+             }
+
+                 .button{
+                 position :absolute;
+                 background-color:white;
+                 border-radius: 4px;
+                 margin:-230px 50px;
+                 padding: 15px;
+                 font-size:12px; 
+
+             }
+
+                
+      .box2{
+         
+          background-color: #3d83df;
+          border-radius:10px; 
+          width:490px;
+          height:400px;
+          margin:60px 180px 5px 5px;
+          overflow: hidden;
+          position: absolute;
+          border: 1px solid black;
+      }
+         23:32 16/03/2019
+
+        .image2 {
+                
+            width: 500px;
+            height: 220px;
+            margin: 10px 20px 100px 200px;
+            background-image: url(image.jpg);
+            background-size:cover;
+        }
+
+
+
+
+.improve {
+                        position: absolute; 
+                        display:inlineblock;
+                        flex-direction:column;
+                        justify-content:center;
+                        
+                        
+                       
+                    }
+                    .improve h1{
+                        font-size: 28px;
+                    }
+
+
+
+<h1>
+                    Improve the lives of millions.
+                    Change&nbsp;yours forever
+                </h1>
+
+
+
+
+<div class="menu" >
+             <div class="left-menu">
+                <h1 style=color:gray;> Group </h1>
+                <h1 style=color:#00b39b;> Docplanner </h1>
+                <img src="https://i.imgur.com/vzwrNbC.png" alt="logo1"/> 
+             </div>
+             <div class="right-menu">
+                <a  href="https://www.docplanner.com/about-us" style=color:#00b39b;> About us </a> 
+                <a  href="https://www.docplanner.com/career"  style=color:gray;> Career </a> 
+                <a  href="https://www.docplanner.com/career"  style=color:gray;> Departments </a>
+             </div>
+         </div>
+
+
+
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+    
+    background-color:lightblue;
+    height:70px;
+   
+  
+    
+   
+}
+    .left-menu{
+        display:flex;
+        flex-direction:row-reverse;
+        justify-content:space-between;
+        align-content:baseline;
+        margin:10px;
+    }
+        .left-menu img{
+           margin:0px 0px 10px 170px;
+           width:40px;
+           height:40px;
+         }
+
+        .left-menu h1{
+           display:flex;
+           flex-direction:row-reverse; 
+           justify-content:center;
+           font-size:28px;
+           margin:5px;
+        } 
+    .right-menu {
+         margin:25px 190px 5px 20px;
+    }
+        .right-menu a{
+            margin:0px 10px;
+            text-decoration:none; 
+            font-size:18px;
+            position: sticky;
+            line-height: 30px;
+            top:0px;
+        }
+
+
+
+<li><h4>Docplanner</h4></li>
+                <li><h4>Group</h4></li>
+
+
+
+
+
+
+nav{
+    
+    height: 30px;
+    background-color:#FF33FF;
+    padding:10px 0px;
+    border:1px solid black;
+ }
+  nav ul  {
+     display: flex;
+     float: left;
+    
+ }
+ nav ul {
+     display: flex;
+     list-style:none; 
+     
+    
+ }
+ nav ul li a {
+     display: block;
+     padding: 0px 20px;
+     text-decoration: none;
+     color: black;
+     font-size: 18px;
+ }
+ nav ul li a:hover{
+  color:white;
+ }
+
+
+
+
+ <header>
+
+        <div class="name">
+            <nav>
+                <ul>   
+                     <li><a>Home </a> </li>
+                     <li><a >About me </a> </li>
+                     <li><a> skills</a>
+                     <li><a> works</a>
+                     <li><a> contact</a>
+                 </ul>           
+             </nav>
+         </div>
+                    
+    </header>
+
+     <main>
+         <div class="container-fluid">
+                <img src="https://static01.nyt.com/images/2019/02/17/realestate/17LIVING-RIVERSIDE-slide-EBQO/17LIVING-RIVERSIDE-slide-EBQO-superJumbo.jpg?quality=75&auto=webp&disable=upscale" alt="image1"/>
+         
+         </div>
+
+
+
+
+
+
